@@ -1,0 +1,209 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /*background-image: url(../img/banner-bg.jpg);*/
+    /*background-color: oldlace;*/
+    background-color: #222;
+    /*background-color: #e0f7fa;*/
+    font-family: "calibri", Garamond, 'Comic Sans';
+}
+
+div {
+    text-align: center;
+}
+
+p{
+    /*color: #000 !important;*/
+    color: #FFB03B !important;
+    font-size: 32px;
+    font-family: 'Satisfy', sans-serif;
+}
+
+#OlPass{
+    color: cornflowerblue;
+    font-family: 'Satisfy', sans-serif;
+}
+
+#Leyenda{
+    color: gray!important;
+    font-size: 15px;
+    font-family: 'Satisfy', sans-serif;
+}
+
+table{
+    text-align: center;
+}
+
+/* ESTILOS GENERICOS PARA TABLAS */
+/*
+table {
+    width: 80%;
+    border: 1px solid #999;
+    text-align: left;
+    border-collapse: collapse;
+    margin: 0 0 1em 0;
+    caption-side: top;
+}
+
+caption,
+td,
+th {
+    padding: 0.3em;
+    font-family: "calibri", Garamond, 'Comic Sans';
+}
+
+th,
+td {
+    border-bottom: 1px solid #999;
+    width: 25%;
+    font-family: "calibri", Garamond, 'Comic Sans';
+}
+
+caption {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    font-family: "calibri", Garamond, 'Comic Sans';
+}
+
+*/
+/*INPUT*/
+
+input[type=text],
+input[type=password] {
+    font-size: 20px;
+    width: 100%;
+    font-family: Times New Roman !important;
+    /*padding: 12px 25px;*/
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    color:aliceblue;
+}
+
+/*input[placeholder]{
+    font-size: 20px;
+    font-family: 'Satisfy', sans-serif !important;
+}*/
+
+
+input[value]{
+    color:darkblue;
+}
+
+/* === Button Style === */
+
+button {
+    background-color: #FFB03B !important;
+    color: #ffffff !important;
+    border: 1px solid /*#509111*/#F1C40F;
+    border-bottom: 1px solid /*#5b992b*/#F1C40F;
+    border-radius: 0px;
+    box-shadow: inset 0 1px 0 0 /*#9fd574*/#F4D03F;
+    -webkit-box-shadow: 0 1px 0 0 #F4D03F inset;
+    -moz-box-shadow: 0 1px 0 0 #F4D03F inset;
+    -ms-box-shadow: 0 1px 0 0 #F4D03F inset;
+    -o-box-shadow: 0 1px 0 0 #F4D03F inset;
+    color: white;
+    font-weight: bold;
+    padding: 6px 20px;
+    text-align: center;
+    text-shadow: 0 -1px 0 /*#396715*/#F1C40F;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    text-transform: capitalize;
+    color: black !important;
+}
+
+button:hover {
+    opacity: .85;
+    cursor: pointer;
+}
+
+button:active {
+    border: 1px solid /*#20911e*/ #F1C40F;
+    box-shadow: 0 0 10px 5px /*#356b0b*/#F1C40F inset;
+    -webkit-box-shadow: 0 0 10px 5px #F1C40F inset;
+    -moz-box-shadow: 0 0 10px 5px #F1C40F inset;
+    -ms-box-shadow: 0 0 10px 5px #F1C40F inset;
+    -o-box-shadow: 0 0 10px 5px #F1C40F inset;
+}
+
+/* === Link Style === */
+/*
+a:link,
+a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover,
+a:active {
+    background-color: #00bcd4;
+}
+
+
+/*------MENU -----*/
+
+/ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+/*FORM*/
+
+form {
+    border: 3px solid #795548;
+    width: 50%;
+}
+
+
+/*configurando imagen LOGIN*/
+
+.containerlogin {
+    padding: 16px;
+}
+
+.imgcontainer {
+    background-image: url(../img/banner-bg.jpg);
+    text-align: center;
+    margin: 15px 0 5px 0;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+img.avatarRe {
+    width: 25%;
+    border-radius: 50%;
+}
+}
